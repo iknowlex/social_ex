@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto'); ul.social_ex {
+ul.social_ex {
   padding-left:0px;
   display: inline-flex;
   text-align: center;
@@ -14,7 +14,6 @@
 .social_ex li a span {
   position: relative;
   display: block;
-  font-family: 'Roboto', sans-serif;
 }
 
 .social_ex li a:before {

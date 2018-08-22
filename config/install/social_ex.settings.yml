@@ -4,7 +4,7 @@ social_profiles:
     link_url: 'http://www.facebook.com/share.php?u=[current-page:url]&title=[current-page:title]'
     description: Facebook
     link_img: ''
-    css: ''
+    css: 'fa fa-facebook'
     target: _blank
     weight: '-10'
     enable: 0
@@ -13,7 +13,7 @@ social_profiles:
     link_url: 'http://www.linkedin.com/shareArticle?mini=true&url=[current-page:url]&title=[current-page:title]&source=[current-page:url]'
     description: Linkedin
     link_img: ''
-    css: ''
+    css: 'fa fa-linkedin'
     target: _blank
     weight: '-9'
     enable: 0
@@ -22,7 +22,7 @@ social_profiles:
     link_url: 'https://twitter.com/intent/tweet?url=[current-page:url]&status=[current-page:title]+[current-page:url]'
     description: Twitter
     link_img: ''
-    css: ''
+    css: 'fa fa-twitter'
     target: _blank
     weight: '-8'
     enable: 0
@@ -31,7 +31,7 @@ social_profiles:
     link_url: 'https://plus.google.com/share?url=[current-page:url]'
     description: 'Google Plus'
     link_img: ''
-    css: ''
+    css: 'fa fa-google-plus'
     target: _blank
     weight: '-7'
     enable: 0
@@ -40,7 +40,7 @@ social_profiles:
     link_url: 'https://www.pinterest.com/pin/create/button/?url=[current-page:url]&description=[current-page:title]'
     description: Pinterest
     link_img: ''
-    css: ''
+    css: 'fa fa-pinterest'
     target: _blank
     weight: '-6'
     enable: 0
@@ -49,7 +49,10 @@ social_profiles:
     link_url: 'mailto:?subject=[current-page:title]&body=[current-page:url]'
     description: Email
     link_img: ''
-    css: ''
+    css: 'fa fa-envelope'
     target: _blank
     weight: '0'
     enable: 0
+socialex_conf:
+  css_class: ''
+  fontawesome: 1
