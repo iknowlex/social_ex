@@ -22,6 +22,6 @@ Drupal 8, Block
 
 
 ## Resources
-
+- Wiki page: https://github.com/iknowlex/social_ex/wiki/SocialEx
 - Project page: https://github.com/iknowlex/social_ex
 - Visit: www.iknowlex.com
