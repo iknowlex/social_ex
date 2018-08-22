@@ -1,0 +1,9 @@
+social_ex.default:
+  version: VERSION
+  css:
+    component:
+      css/social_ex.css: {}
+fontawesome:
+  css:
+    component:
+      //maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: { type: external }

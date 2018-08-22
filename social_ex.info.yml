@@ -1,0 +1,10 @@
+name: Social_Ex
+type: module
+description: Provides a block with configuraiton to list social media sharing of current page.
+# core: 8.x
+dependencies:
+  - drupal:block
+  - drupal:token
+core: 8.x
+package: Others
+configure: social_ex.admin_form

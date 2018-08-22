@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Default theme implementation to social_ex block.
+ *
+ * Available variables
+ * - elements: array of element contains social media link.
+ * - list_attributes : attributes for list element
+ * - element.attributes : link attributes
+ * - element.url : link url for page
+ * - element.image : image for link if configured
+ * - element.text : text for link
+ *
+ * @see template_preprocess_book_navigation()
+ * 
+ *  
+ */
+#}
+
+<ul {{list_attributes}}>
+{% for element in elements %}
+  <li> 
+   <a {{ element.attributes }} {{ element.url }} ><span>
+	{% if element.image %} <img alt="{{ element.title }}" src="{{ element.image }}" />{% endif %}
+	{{ element.text }}</span></a>
+  </li>
+{% endfor %}
+</ul>

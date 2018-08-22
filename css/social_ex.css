@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); ul.social_ex {
+  padding-left:0px;
+  display: inline-flex;
+  text-align: center;
+}
+
+.social_ex li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  list-style-type: none;
+  margin: auto 8px;
+}
+.social_ex li a span {
+  position: relative;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+}
+
+.social_ex li a:before {
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 8px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* black */
+.social_ex-black li a:before {
+  color: #262626;
+  background: #6d6e71;
+}
+
+.social_ex-black li a:hover:before {
+  background: #262626;
+  color: #6d6e71;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -moz-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -ms-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -o-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+}
+
+/* round */
+.social_ex-round li a:before {
+  color: #262626;
+  border: 2px solid #6d6e71;
+}
+
+.social_ex-round li a:hover:before {
+  border: 2px solid #262626;
+  color: #6d6e71;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -moz-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -ms-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  -o-filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.8));
+}

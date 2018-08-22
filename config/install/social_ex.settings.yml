@@ -1,0 +1,55 @@
+social_profiles:
+  -
+    link_text: Facebook
+    link_url: 'http://www.facebook.com/share.php?u=[current-page:url]&title=[current-page:title]'
+    description: Facebook
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '-10'
+    enable: 0
+  -
+    link_text: Linkedin
+    link_url: 'http://www.linkedin.com/shareArticle?mini=true&url=[current-page:url]&title=[current-page:title]&source=[current-page:url]'
+    description: Linkedin
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '-9'
+    enable: 0
+  -
+    link_text: Twitter
+    link_url: 'https://twitter.com/intent/tweet?url=[current-page:url]&status=[current-page:title]+[current-page:url]'
+    description: Twitter
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '-8'
+    enable: 0
+  -
+    link_text: 'Google Plus'
+    link_url: 'https://plus.google.com/share?url=[current-page:url]'
+    description: 'Google Plus'
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '-7'
+    enable: 0
+  -
+    link_text: Pinterest
+    link_url: 'https://www.pinterest.com/pin/create/button/?url=[current-page:url]&description=[current-page:title]'
+    description: Pinterest
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '-6'
+    enable: 0
+  -
+    link_text: Email
+    link_url: 'mailto:?subject=[current-page:title]&body=[current-page:url]'
+    description: Email
+    link_img: ''
+    css: ''
+    target: _blank
+    weight: '0'
+    enable: 0

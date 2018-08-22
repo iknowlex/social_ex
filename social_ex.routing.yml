@@ -1,0 +1,9 @@
+social_ex.admin_form:
+  path: '/admin/config/services/social_ex'
+  defaults:
+    _form: '\Drupal\social_ex\Form\SocialExAdminForm'
+    _title: 'SocialEx settings'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
