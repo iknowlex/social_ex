@@ -172,7 +172,7 @@ class SocialExBlock extends BlockBase implements ContainerFactoryPluginInterface
     foreach ($replacements as $token => $value) {
       // Only clean non-path tokens.
       if (!preg_match('/(path|alias|url|url-brief)\\]$/', $token)) {
-        $replacements[$token] = urlencode($value);
+        $replacements[$token] = rawurlencode($value);
       }
     }
   }
